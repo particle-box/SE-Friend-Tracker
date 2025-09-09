@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "name": "Test",
+      "author": "ETERNAL",
+      "description": "This is an example rule that does something.",
+      "path": "rules/test.json"
+    }
+  ]
+}
