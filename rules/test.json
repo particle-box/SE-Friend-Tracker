@@ -1,0 +1,44 @@
+{
+  "rules": [
+    {
+      "author": "Eternal",
+      "enabled": true,
+      "events": [
+        {
+          "actions": [
+            "IN_APP_NOTIFICATION"
+          ],
+          "enabled": true,
+          "eventType": "stopped_peeking",
+          "id": 21,
+          "params": {
+            "noPushNotificationWhenAppActive": false,
+            "onlyInsideConversation": true,
+            "onlyOutsideConversation": true,
+            "onlyWhenAppActive": true,
+            "onlyWhenAppInactive": false
+          }
+        },
+        {
+          "actions": [
+            "IN_APP_NOTIFICATION"
+          ],
+          "enabled": true,
+          "eventType": "conversation_enter",
+          "id": 22,
+          "params": {
+            "noPushNotificationWhenAppActive": false,
+            "onlyInsideConversation": true,
+            "onlyOutsideConversation": true,
+            "onlyWhenAppActive": true,
+            "onlyWhenAppInactive": false
+          }
+        }
+      ],
+      "id": 9,
+      "name": "test",
+      "scopes": {}
+    }
+  ],
+  "type": "SINGLE"
+}
